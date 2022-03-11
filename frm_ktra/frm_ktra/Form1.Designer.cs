@@ -31,6 +31,8 @@ namespace frm_ktra
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtmatkhau = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -49,11 +51,29 @@ namespace frm_ktra
             this.txtUserName.Size = new System.Drawing.Size(207, 22);
             this.txtUserName.TabIndex = 1;
             // 
+            // txtmatkhau
+            // 
+            this.txtmatkhau.Location = new System.Drawing.Point(269, 209);
+            this.txtmatkhau.Name = "txtmatkhau";
+            this.txtmatkhau.Size = new System.Drawing.Size(207, 22);
+            this.txtmatkhau.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(178, 214);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 17);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Mật Khẩu";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -67,6 +87,8 @@ namespace frm_ktra
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox txtmatkhau;
+        private System.Windows.Forms.Label label2;
     }
 }
 
